@@ -1,4 +1,5 @@
  .mySlides {
+  
   /* display: none; */
 }
 
@@ -8,14 +9,6 @@ img {
   width: 100%;
 }
 
-/* Slideshow container*/ 
-.slideshow-container {
-/*      
-    max-width: 1000px;
-    max-height: 200px;
-    position: relative;
-    margin: auto;  */
-}
 
 /* Caption text */
 .text {
@@ -34,9 +27,9 @@ img {
   width: 15px;
   margin: 0 2px;
   background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
   }
   
   .fulltext {
@@ -64,6 +57,7 @@ img {
   }
     
  /* On smaller screens, decrease text size */
+
   @media only screen and (max-width: 300px) {
     .text {
       font-size: 11px
@@ -96,7 +90,7 @@ body {
 }
 .title {
   font-size: 2rem;
-  margin-bottom: 1rem;                               /*1280px; */
+  margin-bottom: 1rem;                               
 }
 .container {
   min-height: 100vh;
@@ -105,7 +99,6 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   padding:2 rem;
-  /* background: #fff; */
   text-align: center;
 }
 .meal-search {
@@ -174,7 +167,7 @@ body {
 }
 .meal-name {
   padding: 1.5rem 0.5rem;
-  color: #f0f0f0;
+  color: black;
 }
 .meal-name h3 {
   font-size: 1.4rem;
