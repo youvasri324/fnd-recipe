@@ -1,108 +1,141 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            background-image: url('br_image.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: 100% 100%;
-        }
-    </style>
-</head>
-
-<body>
-  
-
-    <h2 >Find your recipe..! </h2>
-
-    <div class="full-conatiner">
-
-   
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>find meal for your ingredients</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+  </head>
+  <body>
     <div class="slideshow-container">
-        <div class="mySlides fade">
-            <img src="slid.jpg">
-            <div class="text">Caption Text</div>
-        </div>
+      <div class="mySlides fade">
+        <img src="newslide7.webp" />
+        <div class="text">Caption Text</div>
+      </div>
 
-        <div class="mySlides fade">
-            <img src="slid 2.jpg">
-            <div class="text">Search for recipies</div>
-        </div>
+      <div class="mySlides fade">
+        <img src="newslide2.jpg" />
+        <div class="text">Search for recipies</div>
+      </div>
 
-        <div class="mySlides fade">
-            <img src="slid3.jpeg">
-            <div class="text">Search for recipies</div>
-        </div>
+      <div class="mySlides fade">
+        <img src="newslide4.webp" />
+        <div class="text">Search for recipies</div>
+      </div>
 
-        <div style="text-align:center">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
-
+      <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
     </div>
-    
 
-    <div class="fulltext">
-        <h1>Hungry?</h1><br>
-        <div class="text1">
-         <h2>Don't know what to prepare with ingredients you have? </h2>
+    <!-- //fibal page// -->
+
+    <div class="container">
+      <div class="meal-wrapper">
+        <div class="meal-search">
+          <h2 class="title">Find Meals for Your Main Ingredient...</h2>
+          <blockquote>
+            <h4>Real food doesn't have ingedients,real food is ingredients.</h4>
+            <cite><h3>-Jamie Oliver</h3</cite>
+          </blockquote>
+
+          <div class="meal-search-box">
+            <input
+              type="text"
+              class="search-control"
+              placeholder="Enter an ingredient"
+              id="search-input"
+            />
+            <button type="submit" class="search-btn btn" id="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
         </div>
-        <div class="text2">
-            <h3> No worries! Let Me Know the Ingredients You have, Will suuggest World class Delicious Recipies for you...</h3>
+
+        <div class="meal-result">
+          <h2 class="title">Your Search Results:</h2>
+          <div id="meal">
+            <!-- meal item  -->
+
+            <!-- end of meal items -->
+            <!-- meal item -->
+            <!-- <div class="meal-item">
+              <div class="meal-img">
+                <img src="potato.jpg" alt="" >
+              </div>
+              <div class="meal-name">
+                <h3>Potato Chips</h3>
+                <a href="#" class="recipe-btn">Get Recipe</a>
+              </div>
+            </div> -->
+            <!-- end of meal items -->
+            <!-- meal item -->
+            <!-- <div class="meal-item">
+              <div class="meal-img">
+                <img src="potato.jpg" alt="" >
+              </div>
+              <div class="meal-name">
+                <h3>Potato Chips</h3>
+                <a href="#" class="recipe-btn">Get Recipe</a>
+              </div>
+            </div> -->
+            <!-- end of meal items -->
+            <!-- meal item -->
+            <!-- <div class="meal-item">
+              <div class="meal-img">
+                <img src="potato.jpg" alt="" > -->
+            <!-- </div>
+              <div class="meal-name">
+                <h3>Potato Chips</h3>
+                <a href="#" class="recipe-btn">Get Recipe</a>
+              </div>
+            </div> -->
+            <!-- end of meal items -->
+          </div>
         </div>
+
+        <div class="meal-details">
+          <!-- recipe close btn -->
+          <button
+            type="button"
+            class="btn recipe-close-btn"
+            id="recipe-close-btn">
+            <i class="fas fa-times"></i>
+          </button>
+
+          <!-- meal content -->
+          <div class="meal-details-content">
+            <!-- <h2 class="recipe-title">Meals Name Here</h2>
+            <p class="recipe-category">category name</p>
+            <div class="recipe-instruct">
+              <h3>Instructions:</h3>
+              <p>
+                gccjjghdjfkogvhxgdhkjgkgoihoh jksgiwunxckjbisuhgdjsbiuwug Cook
+                in the microwave on high until lightly browned, 3 to 5 minutes.
+                Remove chips to a large bowl and toss with salt. Chips will
+                crisp as they cool. Repeat with remaining potato slices; no need
+                to grease the plate again.
+              </p>
+            </div>
+            <div class="recipe-meal-img">
+              <img src="potato.jpg" alt="">
+            </div>
+            <div class="recipe-link">  
+              <a href= "#" target= "_blank">Watch Vedio</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
     </div>
-        <div class="ingredientContainer">
-            <div class="ingredientList">
-                <div class="topTextContainer">
-                    <h3>Choose what you have</h3>
-                    <h6>Atleast 3 main ingredients</h6>
-                </div>
-                
-                <div class="columns">
-                    <div class="firstColumn">
-                        <label for="vehicle1"> <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> Chicken</label>
-                        <label for="vehicle2"> <input type="checkbox" id="vehicle2" name="vehicle2" value="Car"> Mutton </label>
-                        <label for="vehicle2"> <input type="checkbox" id="vehicle2" name="vehicle2" value="Car"> fish</label>
-                        <label for="vehicle2"> <input type="checkbox" id="vehicle2" name="vehicle2" value="Car"> egg</label>
-                    </div>
-                    <div class="secondColumn">
-                        <label for="vehicle1"> <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> Milk </label>
-                        <label for="vehicle2"> <input type="checkbox" id="vehicle2" name="vehicle2" value="Car"> Butter </label>
-                        <label for="vehicle2"> <input type="checkbox" id="vehicle2" name="vehicle2" value="Car"> sugar</label>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="selectedIngredients">
-                <h3>Selected Ingredients</h3>
-                <ol>
-                    <li>egg</li>
-                    <li>oil</li>
-                    <li>Chicken</li>
-                </ol>
-            </div>
-        </div>
-    
-
-</div>
-
-      
-        
-       
-
-      
-   
-
-
-
-   <script src="script.js"></script>
-
-</body>
-
+    <script src="script2.js"></script>
+  </body>
 </html>
