@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+
+  <body>
+    <ul class="nav">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <h3>find your recipe...!</h3>
+
+    <div class="full-conatiner">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="slid.jpg" />
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="slid 2.jpg" />
+          <div class="text">Search for recipies</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="slid3.jpeg" />
+          <div class="text">Search for recipies</div>
+        </div>
+
+        <div style="text-align: center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+      <div class="fulltext">
+        <h1>Hungry?</h1>
+        <br/>
+        <div class="text1">
+          <h2>Don't know what to prepare with ingredients you have?</h2>
+        </div>
+        <div class="text2">
+          <h3>
+            No worries! Let Me Know the Ingredients You have, Will suuggest
+            World class Delicious Recipies for you...
+          </h3>
+        </div>
+      </div>
+      <div class="ingredientContainer">
+        <div class="ingredientList">
+          <div class="topTextContainer">
+            <h3>Choose what you have</h3>
+            <h6>Atleast 3 main ingredients</h6>
+          </div>
+
+          <div class="columns">
+            <div class="firstColumn">
+              <label for="vehicle1">
+                <input
+                  type="checkbox"
+                  id="vehicle1"
+                  name="vehicle1"
+                  value="Bike"
+                />
+                Chicken</label
+              >
+              <label for="vehicle2">
+                <input
+                  type="checkbox"
+                  id="vehicle2"
+                  name="vehicle2"
+                  value="Car"
+                />
+                Mutton
+              </label>
+              <label for="vehicle2">
+                <input
+                  type="checkbox"
+                  id="vehicle2"
+                  name="vehicle2"
+                  value="Car"
+                />
+                fish</label
+              >
+              <label for="vehicle2">
+                <input
+                  type="checkbox"
+                  id="vehicle2"
+                  name="vehicle2"
+                  value="Car"
+                />
+                egg</label
+              >
+            </div>
+            <div class="secondColumn">
+              <label for="vehicle1">
+                <input
+                  type="checkbox"
+                  id="vehicle1"
+                  name="vehicle1"
+                  value="Bike"
+                />
+                Milk
+              </label>
+              <label for="vehicle2">
+                <input
+                  type="checkbox"
+                  id="vehicle2"
+                  name="vehicle2"
+                  value="Car"
+                />
+                Butter
+              </label>
+              <label for="vehicle2">
+                <input
+                  type="checkbox"
+                  id="vehicle2"
+                  name="vehicle2"
+                  value="Car"
+                />
+                sugar</label
+              >
+            </div>
+          </div>
+        </div>
+        <div class="selectedIngredients">
+          <h3>Selected Ingredients</h3>
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+          <div class="button">
+            <button class="submit">submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
