@@ -24,9 +24,6 @@ let slideIndex = 0;
 
 
 
-
-        // hgcjgkihk,lgjl,
-
 const searchBtn= document.getElementById('search-btn');
 const mealList= document.getElementById('meal');
 console.log(mealList);
@@ -36,7 +33,7 @@ const recipeCloseBtn= document.getElementById('recipe-close-btn');
 //event listeners
 searchBtn.addEventListener('click', getMealList);
 mealList.addEventListener('click', getMealRecipe);
-recipeCloseBtn.addEventListener('click', () => {//ananymous function or closure or lamda
+recipeCloseBtn.addEventListener('click', () => {  //ananymous function or closure or lamda
 mealDetailsContent.parentElement.classList.remove('showRecipe');
 });
 
